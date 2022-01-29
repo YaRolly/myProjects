@@ -1,23 +1,3 @@
-
-/* Calc on Obj. 
-
-function Calc(firstNumber, secondNummber, oper) {
-  if (typeof firstNumber !== 'number' || typeof secondNummber !== 'number') return "Error";
-  let operation = {
-    sum: firstNumber + secondNummber,
-    sub: firstNumber - secondNummber,
-    mult: firstNumber * secondNummber,
-    div: firstNumber / secondNummber,
-  }
-  if (oper in operation) {
-    return operation[oper];
-  } else return "Unknown operation";
-}
-
-console.log(Calc(1, 2, 'sum'));
-console.log(Calc(1, 2, ''));*/
-
-
 const list = {
   "create a new practice task": "In Progress",
   "make a bed": "Done",
