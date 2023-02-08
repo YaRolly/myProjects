@@ -1,0 +1,19 @@
+.header {
+    padding: 10px 0;
+    background-color: rgb(83, 85, 210);
+    font-size: 15px;
+    color: white;
+}
+.nav {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_login {
+    background-color: rgb(74, 163, 26);
+    margin-left: 10px;
+}

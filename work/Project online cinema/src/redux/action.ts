@@ -1,0 +1,10 @@
+import { LOGIN, APPLY, SEARCH } from "../const";
+const actionCreator = (type: string) => (payload: any) => ({type, payload});
+export const login = actionCreator(LOGIN);
+export const rating = actionCreator(APPLY.RATING);
+export const genres = actionCreator(APPLY.GENRES);
+export const favorites = actionCreator(APPLY.FAVORITES);
+export const year = actionCreator(APPLY.YEAR);
+export const searchGenres = actionCreator(SEARCH.GENRES);
+export const searchPopularity = actionCreator(SEARCH.POPULARITY);
+export const searchRating = actionCreator(SEARCH.RATING);

@@ -1,0 +1,36 @@
+.sidebar {
+    width: 50%;
+    padding: 25px 20px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.208);
+    border-radius: 3px;
+    height: 790px;
+}
+.sidebar__title {
+    font-size: 22px;
+    font-weight: 700;
+}
+.sidebar__reloat {
+    background-color:black;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+.sidebar__sort {
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(37, 36, 36, 0.335);
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+.sidebar__genre--item input {
+    margin-right: 5px;
+}
+.sidebar__genre__item {
+    margin-bottom: 5px;
+}
+.sort__btn button {
+    width: 100%;
+    margin-top: 5px;
+    background-color: rgb(83, 85, 210);
+}

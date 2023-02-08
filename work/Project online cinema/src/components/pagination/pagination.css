@@ -1,0 +1,15 @@
+.pagination {
+    text-align: center;
+}
+.pagination__btn {
+    display: flex;
+    column-gap: 5px;
+    width: 100%;
+}
+
+.pagination__btn button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(83, 85, 210);
+    width: 50%;
+}
