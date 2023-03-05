@@ -48,7 +48,7 @@ body {
 }
 
 .todo__add-btn {
-  background-image: url('/img/add-icon.svg');
+  background-image: url('/icons/add-icon.svg');
   background-repeat: no-repeat;
   display: block;
   width: 30px;

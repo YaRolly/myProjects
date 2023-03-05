@@ -113,7 +113,7 @@ function render() {
               </label>
             </div>
             <button class="todo__icon-delete" onclick = 'deleteTask("${itemTask.name}")'>
-              <img src="../img/delete-icon.svg" alt="icon" />
+              <img src="./icons/delete-icon.svg" alt="icon" />
             </button>
           </div>`,
         );
@@ -133,7 +133,7 @@ function render() {
               </label>
             </div>
             <button class="todo__icon-delete" onclick = 'deleteTask("${itemTask.name}")'>
-              <img src="../img/delete-icon.svg" alt="icon" />
+              <img src="./icons/delete-icon.svg" alt="icon" />
             </button>
           </div>`,
         );

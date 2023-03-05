@@ -1,0 +1,14 @@
+.help {
+    margin-top: 232px;
+    max-width: 621px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 462px;
+    background-color: white;
+    padding: 10px 9px 17px 12px;
+    text-align: center;
+    padding-top: 165px;
+}
+.help p {
+    padding-bottom: 20px;
+}
