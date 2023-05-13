@@ -1,0 +1,9 @@
+.dropdown {
+  width: 100%;
+  height: 56px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(37, 36, 36, 0.335);
+  border-radius: 8px;
+  padding: 5px 5px;
+}

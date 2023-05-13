@@ -20,7 +20,7 @@ export const ELEMENTS = {
   FORECAST_LIST: document.querySelector('.forecast__list'),
 };
 export const serverUrl = 'http://api.openweathermap.org/data/2.5/weather';
-export const apiKey = 'f660a2fb1e4bad108d6160b7f58c555f';
+export const apiKey = 'cd715ea280a3d7315b45d7f979f62239';
 export const mounths = [
   'January',
   'February',

@@ -1,0 +1,21 @@
+.form {
+  padding: 16px;
+  width: 564px;
+  height: 56px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+.form__title {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.user {
+  margin-bottom: 32px;
+}
+
+.form__text {
+  font-size: 12px;
+  margin-top: 8px;
+}

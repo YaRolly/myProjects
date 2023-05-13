@@ -1,0 +1,46 @@
+.list__item {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.radio {
+  display: inline-block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.circle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #7a5cfa;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.radio input:checked + .circle:before {
+  opacity: 1;
+}
